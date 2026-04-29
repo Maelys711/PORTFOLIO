@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BTS SIO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-bold"><span class="tech-text">Maëlys Houssein</span></span>
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#bts-sio" class="nav-link text-slate-300 hover:text-white">BTS SIO</a>
+                <a href="#parcours" class="nav-link text-slate-300 hover:text-white">Parcours</a>
+                <a href="#projets" class="nav-link text-slate-300 hover:text-white">Projets</a>
+                <a href="#veille" class="nav-link text-slate-300 hover:text-white">Veille</a>
+                <a href="#contact" class="nav-link text-slate-300 hover:text-white">Contact</a>
+            </nav>
+            
+            <!-- Social Icons -->
+            <div class="flex items-center space-x-4">
+                <a href="CV_Maelys.pdf.pdf" class="text-slate-300 hover:text-blue-400 transition-colors" title="Télécharger mon CV">
+                    <i class="fas fa-file-pdf text-xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ma%C3%ABlys-houssein-45a42a284/" class="text-slate-300 hover:text-blue-500 transition-colors" title="LinkedIn">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+            </div>
+            
+            <!-- Mobile menu button -->
+            <button class="md:hidden text-slate-300 focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="accueil" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 to-slate-800">
+            <div class="container mx-auto px-4 py-20 flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                        <span class="text-white">Bonjour, je suis</span> <span class="tech-text">Maëlys Houssein</span>
+                    </h1>
+                    <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-slate-300">
+                        Étudiante en <span class="tech-text">BTS SIO</span> Option SISR
+                    </h2>
+                    <p class="text-lg text-slate-300 mb-8 max-w-lg">
+                        Étudiante en BTS SIO SISR au CNED, je développe mes compétences en administration système, sécurité réseau et infrastructure informatique.
+
+
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md text-white font-medium hover:opacity-90 transition-opacity">
+                            Me contacter
+                        </a>
+                        <a href="#projets" class="px-6 py-3 border border-slate-600 rounded-md text-white font-medium hover:bg-slate-800 transition-colors">
+                            Voir mes projets
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <div class="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-slate-700 relative">
+                            <img src="photo2.JPG" alt="Photo de profil" class="absolute inset-0 w-full h-full object-cover">
+                        </div>
+                        <div class="absolute -bottom-5 -right-5 bg-slate-800 px-4 py-2 rounded-full border border-slate-700">
+                            <span class="text-blue-400 font-medium">= </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BTS SIO Section -->
+        <section id="bts-sio" class="py-20 bg-slate-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                    <span class="tech-text">BTS SIO</span> <span class="text-white">Services Informatiques aux Organisations</span>
+                </h2>
+                
+                <div class="max-w-4xl mx-auto mb-16">
+                    <p class="text-lg text-slate-300 mb-8">
+                        Le BTS SIO (Services Informatiques aux Organisations) est un diplôme d'État de niveau 5 (Bac+2) qui forme des professionnels capables de répondre aux besoins informatiques des entreprises.
+                    </p>
+                    <p class="text-lg text-slate-300 mb-8">
+                        La spécialité SISR (Solutions d’Infrastructure, Systèmes et Réseaux) prépare les étudiants à concevoir, administrer et sécuriser des infrastructures réseaux et des systèmes informatiques. Cette formation permet d’acquérir des compétences en administration des systèmes et réseaux, en virtualisation, en sécurité informatique et en gestion de serveurs, tout en développant une capacité à résoudre des problèmes techniques dans des environnements professionnels variés.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8 mb-16">
+                    <div class="bg-slate-900 p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-colors">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 rounded-full bg-blue-900/30 flex items-center justify-center mr-4">
+                                <i class="fas fa-code text-blue-400 text-xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">Option SLAM</h3>
+                        </div>
+                        <p class="text-slate-300 mb-4">
+                            <span class="font-semibold text-blue-400">Solutions Logicielles et Applications Métiers</span> : Cette option forme des spécialistes du développement d'applications et de la maintenance des parcs applicatifs.
+                        </p>
+                        <ul class="text-slate-300 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Développement d'applications web et mobiles</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Conception et maintenance de solutions logicielles</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Gestion de bases de données</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span>Cybersécurité des applications</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-slate-900 p-8 rounded-xl border border-slate-700 hover:border-indigo-500 transition-colors">
+                        <div class="flex items-center mb-6">
+                            <div class="w-12 h-12 rounded-full bg-indigo-900/30 flex items-center justify-center mr-4">
+                                <i class="fas fa-network-wired text-indigo-400 text-xl"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">Option SISR</h3>
+                        </div>
+                        <p class="text-slate-300 mb-4">
+                            <span class="font-semibold text-indigo-400">Solutions d'Infrastructure, Systèmes et Réseaux</span> : Cette option forme des experts en administration des systèmes et réseaux, ainsi qu'en cybersécurité.
+                        </p>
+                        <ul class="text-slate-300 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-indigo-400 mt-1 mr-2"></i>
+                                <span>Installation et maintenance des infrastructures réseaux</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-indigo-400 mt-1 mr-2"></i>
+                                <span>Administration des systèmes et des serveurs</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-indigo-400 mt-1 mr-2"></i>
+                                <span>Sécurisation des infrastructures</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-indigo-400 mt-1 mr-2"></i>
+                                <span>Virtualisation et cloud computing</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="max-w-4xl mx-auto bg-slate-900 p-8 rounded-xl border border-slate-700">
+                    <h3 class="text-2xl font-bold text-white mb-6">Débouchés professionnels</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="text-lg font-semibold text-blue-400 mb-3">Pour l'option SLAM</h4>
+                            <ul class="text-slate-300 space-y-2">
+                                <li class="flex items-start">
+                                    <i class="fas fa-arrow-right text-blue-400 mt-1 mr-2 text-xs"></i>
+                                    <span>Développeur d'applications</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-arrow-right text-blue-400 mt-1 mr-2 text-xs"></i>
+                                    <span>Programmeur analyste</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-arrow-right text-blue-400 mt-1 mr-2 text-xs"></i>
+                                    <span>Technicien d'études informatiques</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-arrow-right text-blue-400 mt-1 mr-2 text-xs"></i>
+                                    <span>Développeur web</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-indigo-400 mb-3">Pour l'option SISR</h4>
+                            <ul class="text-slate-300 space-y-2">
+                                <li class="flex items-start">
+                                    <i class="fas fa-arrow-right text-indigo-400 mt-1 mr-2 text-xs"></i>
+                                    <span>Administrateur systèmes et réseaux</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-arrow-right text-indigo-400 mt-1 mr-2 text-xs"></i>
+                                    <span>Technicien support</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-arrow-right text-indigo-400 mt-1 mr-2 text-xs"></i>
+                                    <span>Technicien d'infrastructure</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-arrow-right text-indigo-400 mt-1 mr-2 text-xs"></i>
+                                    <span>Spécialiste cybersécurité</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parcours Section -->
+        <section id="parcours" class="py-20 bg-slate-900">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                    <span class="text-white">Mon</span> <span class="tech-text">Parcours</span>
+                </h2>
+                
+                <!-- Diplômes -->
+                <div class="max-w-4xl mx-auto mb-16">
+                    <h3 class="text-2xl font-bold text-white mb-8 flex items-center">
+                        <i class="fas fa-graduation-cap text-blue-400 mr-3"></i>
+                        <span>Formations et diplômes</span>
+                    </h3>
+                    
+                    <div class="space-y-6">
+                        <!-- Diplôme 1 -->
+                        <div class="bg-slate-800 p-6 rounded-xl border-l-4 border-blue-500">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                                <h4 class="text-xl font-bold text-white">BTS SIO - Option SISR</h4>
+                                <span class="text-blue-400 font-medium">2024 - 2026</span>
+                            </div>
+                            <p class="text-slate-300 mb-2"> CNED - Bordeaux, 33000 Bordeaux </p>
+                            <p class="text-slate-400">Formation en initiale Solutions d'Infrastructure, Systèmes et Réseaux</p>
+                        </div>
+
+                        <!-- Diplôme 2-->
+                        <div class="bg-slate-800 p-6 rounded-xl border-l-4 border-indigo-500">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                                <h4 class="text-xl font-bold text-white">Licence 1 - Economie-Gestion</h4>
+                                <span class="text-indigo-400 font-medium">2023 - 2024</span>
+                            </div>
+                            <p class="text-slate-300 mb-2">Université Bordeaux Montesquieu, Pessac 33600</p>
+                        </div>
+                        
+                        <!-- Diplôme 3 -->
+                        <div class="bg-slate-800 p-6 rounded-xl border-l-4 border-blue-500">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                                <h4 class="text-xl font-bold text-white">Baccalauréat, Spécialités Mathématiques 
+                                <br> et Sciences Economiques et Sociales</h4>
+                                <span class="text-blue-400 font-medium">2020 - 2023</span>
+                            </div>
+                            <p class="text-slate-300 mb-2">Lycée Montesquieu, 333000 Bordeaux, France</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Compétences -->
+                <div class="max-w-4xl mx-auto mb-16">
+                    <h3 class="text-2xl font-bold text-white mb-8 flex items-center">
+                        <i class="fas fa-code text-blue-400 mr-3"></i>
+                        <span>Compétences</span>
+                    </h3>
+                    
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <!-- Front-end -->
+                        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 skill-card transition-all">
+                            <h4 class="text-lg font-bold text-white mb-4 flex items-center">
+                                <i class="fas fa-laptop-code text-blue-400 mr-2"></i>
+                                <span>Front-end</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-3">
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Laravel</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Back-end -->
+                        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 skill-card transition-all">
+                            <h4 class="text-lg font-bold text-white mb-4 flex items-center">
+                                <i class="fas fa-server text-indigo-400 mr-2"></i>
+                                <span>Back-end</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-3">
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>PHP</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Java</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Bases de données -->
+                        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 skill-card transition-all">
+                                <i class="fas fa-database text-blue-400 mr-2"></i>
+                                <span>Bases de données</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-3">
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>MySQL</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <i class="devicon-phpmyadmin-plain colored text-xl mr-2"></i>
+                                    <span>phpMyAdmin</span>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- Outils -->
+                        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 skill-card transition-all md:col-span-3">
+                            <h4 class="text-lg font-bold text-white mb-4 flex items-center">
+                                <i class="fas fa-tools text-indigo-400 mr-2"></i>
+                                <span>Outils</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-3">
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Git</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>GitHub</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Active Directory</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Intunes</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Citrix</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Linux Debian</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Systèmes et environnements -->
+                        <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 skill-card transition-all md:col-span-3">
+                            <h4 class="text-lg font-bold text-white mb-4 flex items-center">
+                                    <i class="fas fa-robot text-blue-400 mr-2"></i>
+                                <span>Systèmes et environnements</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-3">
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Windows 10 / 11</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>macOS</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Trello</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>VSCode</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>Claude</span>
+                                </div>
+                                <div class="flex items-center bg-slate-900/50 px-3 py-2 rounded-md">
+                                    <span>OpenAI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Expériences -->
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-2xl font-bold text-white mb-8 flex items-center">
+                        <i class="fas fa-briefcase text-blue-400 mr-3"></i>
+                        <span>Expériences Professionnelles</span>
+                    </h3>
+                    
+                    <div class="space-y-6">
+                        <!-- Expérience 1 -->
+                        <div class="bg-slate-800 p-6 rounded-xl border-l-4 border-blue-500">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                                <h4 class="text-xl font-bold text-white">STAGE : Technicien help-desk</h4>
+                                <span class="text-blue-400 font-medium">Mars - Avril 2026</span>
+                            </div>
+                            <p class="text-slate-300 mb-2">WPP Média , 92044 Levallois-Perret</p>
+                            <p class="text-slate-300 mb-3"><b>Missions :</b></p>
+                            <p class="text-slate-300 mb-4"> Gestion du parc informatique, en utilisant iTunes, Active Directory et le logiciel interne IRU pour les machines Mac, ainsi que des clés bootables pour l’installation et la mise à jour de Windows 11. J’ai géré les droits d’accès et créé des comptes utilisateurs, tout en permettant l’accès aux logiciels via Citrix. J’ai également pris en charge les tickets des utilisateurs et réalisé la maintenance matérielle, incluant le remplacement de batteries, hauts parleurs. </p>
+                            <p class="text-slate-300 mb-3"><b>Comptétences Acquises :</b></p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Itunes</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Active Directory</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Ticketing</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Windows11</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">MacOS</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Expérience 2 -->
+                        <div class="bg-slate-800 p-6 rounded-xl border-l-4 border-indigo-500">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                                <h4 class="text-xl font-bold text-white">STAGE : Support Utilisateur et Développement d’Applications Internes</h4>
+                                <span class="text-indigo-400 font-medium">mai - juillet 2025</span>
+                            </div>
+                            <p class="text-slate-300 mb-2">Alpha Digital, 75004 Paris </p>
+                            <p class="text-slate-300 mb-3"><b>Missions :</b></p>
+                            <p class="text-slate-300 mb-4">Pendant mon stage, j’ai participé au développement et à l’amélioration d’outils internes pour la gestion des tickets utilisateurs, en utilisant PHP, Laravel et PhpMyAdmin. Mes missions ont inclus :
+<br>
+<br>- Conception et refonte de modules et interfaces web pour automatiser certaines tâches et améliorer l’efficacité du support.
+<br>- Maintenance et assistance aux utilisateurs, incluant la configuration de logiciels et la gestion de parc.
+<br>- Participation à des projets web visant à renforcer la visibilité et le rayonnement de l’entreprise.
+<br>- Mise en place d’une documentation technique et structuration du code pour faciliter la lisibilité et la réutilisabilité.
+
+<br><br>Ces expériences m’ont permis de développer autonomie, rigueur technique et polyvalence entre développement, infrastructure et support utilisateur. <br><br>
+                        </p>
+                            <p class="text-slate-300 mb-3"><b>Comptétences Acquises :</b></p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">PHP</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">HTML</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">CSS</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">MySQL</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">PHPMyAdmin</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">GLPI</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Git</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projets Section -->
+        <section id="projets" class="py-20 bg-slate-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                    <span class="text-white">Mes</span> <span class="tech-text">Projets</span>
+                </h2>
+
+                    <!-- Projets en Entreprise -->
+                <div class="max-w-6xl mx-auto">
+                    <h3 class="text-2xl font-bold text-white mb-8 flex items-center">
+                        <i class="fas fa-building text-blue-400 mr-3"></i>
+                        <span>Projets en entreprise</span>
+                    </h3>
+
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Projet 1 -->
+                        <div class="project-card rounded-xl p-6 border border-slate-700">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-md bg-blue-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-globe text-blue-400 text-xl"></i>
+                                </div>
+                                <h4 class="text-xl font-bold text-white">Développement et refonte de modules applicatifs </h4>
+                            </div>
+                            <p class="text-slate-300 mb-4">
+                                Stage 1er année : Participation à la conception, refonte et amélioration de modules (notamment le système de tickets), avec implémentation de nouvelles fonctionnalités et optimisation du code.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">PHP</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">MySQL</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Laravel</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Architecture logicielle</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Projet 2 -->
+                        <div class="project-card rounded-xl p-6 border border-slate-700">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-md bg-indigo-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-gamepad text-indigo-400 text-xl"></i>
+                                </div>
+                                <h4 class="text-xl font-bold text-white">Amélioration de l’interface utilisateur et intégration front-end</h4>
+                            </div>
+                            <p class="text-slate-300 mb-4">
+                                Stage 1er année : Intégration en HTML/CSS et amélioration de l’ergonomie des interfaces pour garantir une meilleure expérience utilisateur et une cohérence visuelle.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">HTML/CSS</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">UX/UI</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Responsive Design</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Intégration web</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Projet 3 -->
+                        <div class="project-card rounded-xl p-6 border border-slate-700">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-md bg-blue-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-tools text-blue-400 text-xl"></i>
+                                </div>
+                                <h4 class="text-xl font-bold text-white">Gestion du parc informatique et des équipements</h4>
+                            </div>
+                            <p class="text-slate-300 mb-4">
+                                Stage 2ème année : Administration du cycle de vie des machines (attribution, suivi, intégration dans Active Directory, Intune et Apple Business Manager).
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Active Directory</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Microsoft Intune</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Gestion de parc informatique</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Administration systèmes</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Projet 4 -->
+                        <div class="project-card rounded-xl p-6 border border-slate-700">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-md bg-indigo-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-laptop-code text-indigo-400 text-xl"></i>
+                                </div>
+                                <h4 class="text-xl font-bold text-white">Support technique aux utilisateurs (niveau 1)</h4>
+                            </div>
+                            <p class="text-slate-300 mb-4">
+                                Stage 2ème année : Résolution d’incidents courants (réinstallation d’applications, gestion du cache, dépannage système) et assistance aux utilisateurs.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Support utilisateur</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Windows / macOS</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Dépannage informatique</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Gestion des incidents</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Projet 5 -->
+                        <div class="project-card rounded-xl p-6 border border-slate-700">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-md bg-blue-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-calculator text-blue-400 text-xl"></i>
+                                </div>
+                                <h4 class="text-xl font-bold text-white">Gestion des accès et automatisation des processus</h4>
+                            </div>
+                            <p class="text-slate-300 mb-4">
+                               Stage 2ème année :Administration des comptes utilisateurs (création, déblocage, réinitialisation via Okta) et participation à des scripts de migration de données.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Okta</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Scripts / SQL</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Automatisation de processus</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Gestion des comptes utilisateurs</span>
+                            </div>
+                        </div>
+                            <!-- Projet 6 -->
+                        <div class="project-card rounded-xl p-6 border border-slate-700">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-md bg-indigo-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-file-alt text-indigo-400 text-xl"></i>
+                                </div>
+                                <h4 class="text-xl font-bold text-white">Tableau de synthèse et convention de stage.</h4>
+                            </div>
+                            <p class="text-slate-300 mb-4">
+                                Document récapitulatif des réalisations professionnelles avec analyse et réflexion, et convention de stage.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Bilan</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Compétences</span>
+                            </div>
+                            <div class="flex flex-col space-y-4">
+
+                            <a href="Tableau.xlsx" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium flex items-center">
+                                <i class="fas fa-download mr-2"></i> Tableau 
+    </a>
+
+    <a href="Tableau-de-synthese.xlsx" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium flex items-center">
+        <i class="fas fa-download mr-2"></i> Convention de stage 1er année 
+    </a>
+
+    <a href="Tableau-de-synthese.xlsx" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium flex items-center">
+        <i class="fas fa-download mr-2"></i> Convention de stage 2ème année 
+    </a>
+</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projets en Scolaire -->
+                    <br> 
+                <div class="max-w-6xl mx-auto">
+                    <h3 class="text-2xl font-bold text-white mb-8 flex items-center">
+                        <i class="fas fa-building text-blue-400 mr-3"></i>
+                        <span>Projets Scolaire </span>
+                    </h3>
+                </div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- Projet 1 -->
+                        <div class="project-card rounded-xl p-6 border border-slate-700">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-md bg-blue-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-ticket-alt text-blue-400 text-xl"></i>
+                                </div>
+                                <h4 class="text-xl font-bold text-white">Atelier  2 de professionnalisation – EvolSysWin</h4>
+                            </div>
+                            <p class="text-slate-300 mb-4">
+                                <b>Mission :</b>
+                            </p>
+                            <p class="text-slate-300 mb-4">
+                               intégration d’un client (ValorElec) au sein d’une infrastructure existante.
+                            </p>
+                            <p class="text-slate-300 mb-4">
+                                <b>Compétences Acquises :</b>
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Active Directory </span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Debian</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">TrueNAS</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Cisco Packet Tracer</span>
+                                <span class="text-xs bg-blue-900/30 text-blue-400 px-3 py-1 rounded-full">Windows Server</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <div class="flex space-x-3">
+                                    <a href="TP_ATELIERPRO_ATELIER2.docx" 
+                                       class="text-slate-400 hover:text-white text-sm" 
+                                       title="Documentation Word" 
+                                       target="_blank" 
+                                       download>
+                                    <i class="fas fa-file-alt"></i> Télécharger TP1
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Projet 2 -->
+                        <div class="project-card rounded-xl p-6 border border-slate-700">
+                            <div class="flex items-center mb-4">
+                                <div class="w-12 h-12 rounded-md bg-indigo-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-school text-indigo-400 text-xl"></i>
+                                </div>
+                                <h4 class="text-xl font-bold text-white">Atelier 4 de professionnalisation -  PARCINFO Gestion des configurations et des incidents sur le parc informatique</h4>
+                            </div>
+                            <p class="text-slate-300 mb-4">
+                                <b>Mission :</b>
+                            </p>
+                            <p class="text-slate-300 mb-4">
+                                Mettre en place une solution de gestion de parc et d’incidents.
+                            </p>
+                            <p class="text-slate-300 mb-4">
+                                <b>Comptétences Acquises :</b>
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">GLPI</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Trello</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Plan d'adressage</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Ticket</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">VM</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Debian</span>
+                                <span class="text-xs bg-indigo-900/30 text-indigo-400 px-3 py-1 rounded-full">Active Directory</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <a href="AtelierPro-TP2.docx" 
+                                       class="text-slate-400 hover:text-white text-sm" 
+                                       title="Documentation Word" 
+                                       target="_blank" 
+                                       download>
+                                    <i class="fas fa-file-alt"></i> Télécharger TP2
+                                    </a>
+                                <div class="flex space-x-3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Veille Technologique Section -->
+        <section id="veille" class="py-20 bg-slate-900">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                    <span class="text-white">Veille</span> <span class="tech-text">Technologique</span>
+                </h2>
+                
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 mb-12">
+                        <h3 class="text-2xl font-bold text-white mb-6 flex items-center">
+                            <i class="fas fa-brain text-blue-400 mr-3"></i>
+                            <span>Thématiques étudiées</span>
+                        </h3>
+                        <p class="text-slate-300 mb-4">
+                            Dans le cadre de ma veille, je me suis concentrée sur plusieurs axes :
+                            
+                        <h4 class="text-xl font-bold text-white mb-4"></h4>
+                        <ul class="text-slate-300 space-y-3 mb-6">
+
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span><strong>Stockage et infrastructures</strong> : DataCore, stockage objet</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span><strong>Cybersécurité </strong> : attaques cloud, AWS</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span><strong>Administration système Windows</strong> : ex : Event ID 4117, GPO</span>
+                            </li>
+
+                            </li>
+                        </ul>
+
+                        <div class="max-w-4xl mx-auto">
+                    <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 mb-12">
+                        <h3 class="text-2xl font-bold text-white mb-6 flex items-center">
+                            <i class="fas fa-brain text-blue-400 mr-3"></i>
+                            <span>Exemple de sujet suivi</span>
+                        </h3>
+
+                        <p class="text-slate-300 mb-6">
+                        </p>
+                        
+                        <h4 class="text-xl font-bold text-white mb-4">Sécurisation et évolution des infrastructures IT</h4>
+                        <ul class="text-slate-300 space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span><strong>optimiser leurs infrastructures</strong> : réutilisation de serveurs, conteneurisation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span><strong>renforcer la sécurité</strong> : cloud, gestion des accès IAM</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-400 mt-1 mr-2"></i>
+                                <span><strong>améliorer l’administration système</strong> : logs, supervision</span>
+                            </li>
+                        </ul>
+                        
+                        <h4 class="text-xl font-bold text-white mb-4">Sources de veille</h4>
+                        <div class="flex flex-wrap gap-3 mb-6">
+                            <div class="flex items-center bg-slate-700/50 px-4 py-2 rounded-full">
+                                <i class="fas fa-bell text-blue-400 mr-2"></i>
+                                <span>LeMagIT</span>
+                            </div>
+                            <div class="flex items-center bg-slate-700/50 px-4 py-2 rounded-full">
+                                <i class="fas fa-rss text-orange-400 mr-2"></i>
+                                <span>IT-Connect</span>
+                            </div>
+                            <div class="flex items-center bg-slate-700/50 px-4 py-2 rounded-full">
+                                <i class="fas fa-envelope text-purple-400 mr-2"></i>
+                                <span>Feedly</span>
+                            </div>
+                            <div class="flex items-center bg-slate-700/50 px-4 py-2 rounded-full">
+                                <i class="fab fa-youtube text-red-400 mr-2"></i>
+                                <span>YouTube</span>
+                            </div>
+                            <div class="flex items-center bg-slate-700/50 px-4 py-2 rounded-full">
+                                <i class="fab fa-linkedin text-blue-300 mr-2"></i>
+                                <span>LinkedIn</span>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-center">
+                            <a href="VeilleInformatiqueBTS2026.docx" class="px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md text-white font-medium hover:opacity-90 transition-opacity flex items-center">
+                                <i class="fas fa-download mr-2"></i> Télécharger le dossier de veille (PDF)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-slate-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                    <span class="text-white">Me</span> <span class="tech-text">Contacter</span>
+                </h2>
+                
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-6">Envoyez-moi un message</h3>
+                        
+                        <form class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-slate-300 mb-2">Nom complet</label>
+                                <input type="text" id="name" class="form-input w-full px-4 py-3 rounded-md focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block text-slate-300 mb-2">Adresse email</label>
+                                <input type="email" id="email" class="form-input w-full px-4 py-3 rounded-md focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block text-slate-300 mb-2">Message</label>
+                                <textarea id="message" rows="5" class="form-input w-full px-4 py-3 rounded-md focus:ring-2 focus:ring-blue-500"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md text-white font-medium hover:opacity-90 transition-opacity">
+                                Envoyer
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-6">Coordonnées</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 rounded-full bg-blue-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-envelope text-blue-400 text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-white mb-1">Email</h4>
+                                    <a href="mailto:maelys.houssein@gmail.com" class="text-slate-300 hover:text-blue-400 transition-colors">maelys.houssein@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 rounded-full bg-indigo-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-map-marker-alt text-indigo-400 text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-white mb-1">Localisation</h4>
+                                    <p class="text-slate-300">Bordeaux, France</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 rounded-full bg-blue-900/20 flex items-center justify-center mr-4">
+                                    <i class="fas fa-file-alt text-blue-400 text-xl"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-white mb-1">Curriculum Vitae</h4>
+                                    <a href="CV_Maelys.pdf.pdf" 
+                                       class="text-slate-400 hover:text-white text-sm" 
+                                       title="Documentation Word" 
+                                       target="_blank" 
+                                       download>
+                                    <i class="fas fa-file-alt"></i> Télécharger mon CV (pdf)
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="pt-6">
+                                <h4 class="text-lg font-semibold text-white mb-4">LinkedIn</h4>
+                                <div class="flex space-x-4">
+                                    <a href="https://www.linkedin.com/in/ma%C3%ABlys-houssein-45a42a284/" class="w-12 h-12 rounded-full bg-slate-700 hover:bg-blue-600 flex items-center justify-center transition-colors" title="LinkedIn">
+                                        <i class="fab fa-linkedin-in text-xl text-white"></i>
+                                    </a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="flex items-center space-x-2 mb-4 md:mb-0">
+                    <span class="text-lg font-bold"><span class="tech-text">Maëlys Houssein</span></span>
+                </div>
+                
+                <div class="flex space-x-6 mb-4 md:mb-0">
+                    <a href="#bts-sio" class="text-slate-300 hover:text-white transition-colors">BTS SIO</a>
+                    <a href="#parcours" class="text-slate-300 hover:text-white transition-colors">Parcours</a>
+                    <a href="#projets" class="text-slate-300 hover:text-white transition-colors">Projets</a>
+                    <a href="#veille" class="text-slate-300 hover:text-white transition-colors">Veille</a>
+                    <a href="#contact" class="text-slate-300 hover:text-white transition-colors">Contact</a>
+                </div>
+                
+                <div class="flex space-x-4">
+                    <a href="https://www.linkedin.com/in/ma%C3%ABlys-houssein-45a42a284/" class="text-slate-300 hover:text-blue-400 transition-colors">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-slate-500">
+                <p>&copy; 2026 Maëlys Houssein. Tous droits réservés.</p>
+                <p class="mt-2 text-sm">Portfolio réalisé dans le cadre du BTS SIO.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Update active nav link
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.classList.remove('active');
+                });
+                this.classList.add('active');
+            });
+        });
+        
+        // Highlight active nav link based on scroll position
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= (sectionTop - 300)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+        
+        // Mobile menu toggle (placeholder - would need implementation)
+        document.querySelector('button').addEventListener('click', function() {
+            alert('Menu mobile à implémenter');
+        });
+    </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=crtedbyegnrs/portfolio-bts" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
